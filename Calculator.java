@@ -1,30 +1,24 @@
 package gst_calculator;
-
 import java.util.ArrayList;
 import java.util.Scanner;
-
 public class Calculator{
-
 String partNumber, partDescription;
 int quantity;
 double price;
 
-public String getPartNumber()
+    public String getPartNumber()
 {
     return partNumber;
 }
-
-public void setPartNumber(String partno)
+    public void setPartNumber(String partno)
 {
     this.partNumber=partno;
 }
-
-public String getPartDescription()
+    public String getPartDescription()
 {
     return partDescription;
 }
-
-public void setPartDescription(String partDescription)
+    public void setPartDescription(String partDescription)
 {
     this.partDescription=partDescription;
 }
